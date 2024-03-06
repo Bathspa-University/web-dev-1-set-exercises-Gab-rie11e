@@ -4,6 +4,20 @@ h1, p {
 
 img {
     display: block;
-    margin: auto;
+    margin-right: 80px;
+    margin-left: 20px;
+    padding: 2%
     
+}
+
+.desc {
+    text-align: auto;
+    position:relative; left:80px; 
+
+}
+
+.Recipe {
+    width: 80%;
+    margin-left: 20px;
+    margin-right: 80px;
 }
