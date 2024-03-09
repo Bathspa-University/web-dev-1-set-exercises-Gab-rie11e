@@ -1,23 +1,75 @@
-h1, p {
+header {
+    font-family: garamond;
+    background-color: #333;
+    color: #fff;
     text-align: center;
+    padding: 20px 0;
 }
 
-img {
-    display: block;
-    margin-right: 80px;
-    margin-left: 20px;
-    padding: 2%
-    
+p {
+    text-align: center;
+    font-family: italic;
 }
 
 .desc {
     text-align: auto;
-    position:relative; left:80px; 
+    margin-right:50px;
+    margin-left: 10px;
+    font-size: 17px;
 
 }
 
+body {
+    background-color: rgba(210, 217, 186, 0.903);
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 25px;
+    background-color:rgba(239, 240, 201, 0.903);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: outset;
+    border-color: rgb(106, 94, 51);
+}
+
 .Recipe {
-    width: 80%;
-    margin-left: 20px;
-    margin-right: 80px;
+    flex: 1;
+    margin-right: 20px;
+}
+
+.ingredients {
+    flex: 1;
+    padding: 10px;
+    font-size: 17px;
+}
+
+.ingredients h2 {
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.ingredients ul {
+    list-style-type: none;
+    padding: 5px;
+    margin: 5px;
+}
+
+.ingredients li {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.ingredients .hrr {
+    width: 100%;
+    margin: 0;
+    border: 0;
+    border-top: 1px solid #333;
+}
+
+.steps {
+    font-size:17px
 }
