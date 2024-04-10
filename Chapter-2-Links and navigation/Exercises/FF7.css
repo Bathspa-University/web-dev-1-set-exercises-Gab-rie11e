@@ -1,0 +1,52 @@
+header {
+    font-family: garamond;
+    background: linear-gradient(to bottom, #52c4af, rgb(115, 113, 149), #2d2b6b);
+    text-align: center;
+    padding: 30px;
+    font-size: 15px;
+    color: #fff
+} 
+
+body {
+    background-color: #2d2b6b;
+}
+
+.container {
+    color: #fff;
+    border-style: inherit;
+    background-color: #0d0b37;
+    max-width: 100%;
+    margin: 20px;
+    margin-left: 120px;
+    margin-right: 120px;
+    padding: 20px;
+    position: center;
+    text-align: justify;
+    border: 2px solid #fff;
+    line-height: 1.5;
+}
+
+.container p {
+    margin-bottom: 15px;
+}
+
+li {
+    display:inline;
+    margin: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
