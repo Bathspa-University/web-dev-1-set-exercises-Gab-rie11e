@@ -1,0 +1,45 @@
+.violet1 {
+    display: inline-block;
+    margin: 20px;
+    max-width: 300px;
+    max-height: 200px;
+}
+
+.violet1 img {
+    width: 100%;
+    height: auto;
+    filter: sepia(30%);
+    filter: contrast(120%);
+}
+
+.violet2 {
+    display: inline-block;
+    margin: 20px;
+    max-width: 300px;
+    max-height: 200px;
+}
+
+.violet2 img {
+    width: 100%;
+    height: auto;
+    filter: blur(30px);
+    filter: hue-rotate(30deg);
+}
+
+.violet3 {
+    display: inline-block;
+    margin: 20px;
+    max-width: 300px;
+    max-height: 200px;
+}
+
+.violet3 img {
+    width: 100%;
+    height: auto;
+    filter: saturate(120%);
+    filter: opacity(60%);
+}
+
+body {
+    background-color: rgb(153, 82, 220);
+}
