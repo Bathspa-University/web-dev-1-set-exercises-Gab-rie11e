@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: outset;
+    width: 500px;
+    margin-left: 35%;
+    margin-top: 10%;
+    background-color: rgb(117, 102, 162);
+}
+
+button {
+    margin: 10px;
+}
+
+h2 {
+    margin: 8px;
+}
+
+body {
+    background-color: rgb(218, 123, 185);
+}
