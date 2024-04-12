@@ -1,3 +1,4 @@
+/*Designing the header with linear gradient for smooth color transition*/
 header {
     font-family: garamond;
     background: linear-gradient(to bottom, #52c4af, rgb(115, 113, 149), #2d2b6b);
@@ -10,7 +11,7 @@ header {
 body {
     background-color: #2d2b6b;
 }
-
+/*Adjusting the main content's container from color, margin, padding, and position of content*/
 .container {
     color: #fff;
     border-style: inherit;
@@ -49,4 +50,21 @@ nav ul {
     padding: 0;
     margin: 0;
     display: flex;
-  }
+}
+
+h1 {
+    margin: 0;
+    padding: 30px;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: yellow;
+}
+
+a:visited {
+    color: #52c4af;
+}
