@@ -6,10 +6,11 @@
 }
 
 .violet1 img {
-    width: 100%;
-    height: auto;
+    width: auto;
+    height: 130%;
     filter: sepia(30%);
     filter: contrast(120%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .violet2 {
@@ -24,6 +25,7 @@
     height: auto;
     filter: blur(30px);
     filter: hue-rotate(30deg);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .violet3 {
@@ -38,8 +40,20 @@
     height: auto;
     filter: saturate(120%);
     filter: opacity(60%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 body {
-    background-color: rgb(153, 82, 220);
+    background-color: rgb(146, 100, 188);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    border: outset;
+    height: 450px;
+    width: 1200px;
+    margin-left: 150px;
+    margin-top: 150px;
+    background-color: rgb(184, 141, 225);
 }
