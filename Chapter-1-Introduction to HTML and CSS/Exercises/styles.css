@@ -1,3 +1,4 @@
+/*styling the header with color and aligning items inside*/
 header {
     font-family: garamond;
     background-color: #333;
@@ -5,7 +6,7 @@ header {
     text-align: center;
     padding: 20px 0;
 }
-
+/*assigning font the contents of p and desc as well as aligning*/
 p {
     text-align: center;
     font-family: italic;
@@ -18,11 +19,11 @@ p {
     font-size: 17px;
 
 }
-
+/*assigning webpage body color*/
 body {
     background-color: rgba(210, 217, 186, 0.903);
 }
-
+/*deseigning the container with customized edges, assigning bg color, changing margin, padding, width, and aligning contents*/
 .container {
     display: flex;
     justify-content: space-between;
@@ -39,7 +40,7 @@ body {
     border-bottom-left-radius: 110px 19px;
     border-bottom-right-radius: 120px 24px;
 }
-
+/*adjusting each content's margins and padding*/
 .Recipe {
     flex: 1;
     margin-right: 20px;
